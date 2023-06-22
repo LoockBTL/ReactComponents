@@ -97,7 +97,7 @@ interface CardItemProps extends Card {
 }
 const CardItem: FC<CardItemProps> = ({ card, choiseCheck, flipped }) => {
   return (
-    <div className={flipped ? "card flip" : "card"}>
+    <div className={flipped ? "card-game flip" : "card-game"}>
       <div className="front" style={{ backgroundColor: card.color }}></div>
       <div
         className="back"
